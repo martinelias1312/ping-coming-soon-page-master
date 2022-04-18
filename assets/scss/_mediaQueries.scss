@@ -1,6 +1,29 @@
 /*
  *	MEDIA QUERIES
  ------------------------------------------------------ */
-@media screen and (max-width: 599px) {
-    
+@media screen and (min-width: 599px) {
+    form {
+        flex-direction: row;
+    }
+
+    #email {
+        width: 70%;
+    }
+
+    .submit {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 799px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    main {
+        max-width: 799px;
+    }
 }

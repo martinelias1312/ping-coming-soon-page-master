@@ -6259,4 +6259,37 @@ footer {
 /*
  *	MEDIA QUERIES
  ------------------------------------------------------ */
+@media screen and (min-width: 599px) {
+  form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #email {
+    width: 70%;
+  }
+  .submit {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 799px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  main {
+    max-width: 799px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
