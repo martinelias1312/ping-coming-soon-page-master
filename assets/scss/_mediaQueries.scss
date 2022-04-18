@@ -4,14 +4,23 @@
 @media screen and (min-width: 599px) {
     form {
         flex-direction: row;
+        text-align: left;
     }
 
-    #email {
+    .email-stuff {
         width: 70%;
     }
 
     .submit {
         width: 30%;
+        height: fit-content;
+    }
+
+    .error {
+        margin: {
+            left: 3em;
+            bottom: 0;
+        }
     }
 }
 

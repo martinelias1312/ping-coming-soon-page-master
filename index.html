@@ -16,14 +16,21 @@
 <body>
   <main>
     <section class="text-section">
+
       <img src="/assets/images/logo.svg" alt="" class="logo" aria-hidden="true">
       <h1><span class="h1-span">We are launching</span> soon!</h1>
       <p>Subscribe and get notified</p>
+
       <form>
-        <input type="email" title="Insert your email here" id="email" placeholder="Your email adress..." required>
+        <div class="email-stuff">
+          <input type="email" title="Insert your email here" id="email" placeholder="Your email adress..." required>
+          <p class="error hidden">Please provide a valid email adress</p>
+        </div>
         <button type="submit" class="submit">Notify Me</button>
       </form>
+
     </section>
+
     <img src="/assets/images/illustration-dashboard.png" alt="" class="dashboard" aria-hidden="true">
   </main>
 

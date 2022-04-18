@@ -40,6 +40,7 @@ form {
 }
 
 #email {
+    width: 100%;
     font-size: 0.8em;
     color: $color-neutral-Very-Dark-Blue;
     border: 1.5px solid $color-secondary-Pale-Blue;
@@ -50,6 +51,13 @@ form {
 
 #email:placeholder-shown {
     color: $color-secondary-Pale-Blue;
+}
+
+.error {
+    margin: 0.5em 0 2em;
+    color: $color-secondary-Light-Red;
+    font-size: 0.6em;
+    font-style: italic;
 }
 
 .submit {
@@ -108,6 +116,10 @@ footer {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.hidden {
+    display: none;
 }
 
 @import '_mediaQueries';

@@ -6190,6 +6190,7 @@ form {
 }
 
 #email {
+  width: 100%;
   font-size: 0.8em;
   color: #151f29;
   border: 1.5px solid #c2d3ff;
@@ -6200,6 +6201,13 @@ form {
 
 #email:placeholder-shown {
   color: #c2d3ff;
+}
+
+.error {
+  margin: 0.5em 0 2em;
+  color: #ff5263;
+  font-size: 0.6em;
+  font-style: italic;
 }
 
 .submit {
@@ -6263,6 +6271,10 @@ footer {
   color: #3e52a3;
 }
 
+.hidden {
+  display: none;
+}
+
 /*
  *	MEDIA QUERIES
  ------------------------------------------------------ */
@@ -6272,12 +6284,20 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    text-align: left;
   }
-  #email {
+  .email-stuff {
     width: 70%;
   }
   .submit {
     width: 30%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .error {
+    margin-left: 3em;
+    margin-bottom: 0;
   }
 }
 
