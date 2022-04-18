@@ -5,6 +5,67 @@
 /*
  *	CONTENT
  ------------------------------------------------------ */
+main {
+    margin: 3em 2em;
+}
+
+ .logo {
+    width: 20%;
+}
+
+h1 {
+    font-size: 1.2em;
+    margin: 2em 0 1em;
+}
+
+.h1-span {
+    font-weight: 300;
+}
+
+.h1-span, .copy {
+    color: $color-neutral-Gray;
+}
+
+p {
+    font-size: 0.7em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    margin: 2em 0 4em;
+}
+
+#email {
+    font-size: 0.8em;
+    color: $color-neutral-Very-Dark-Blue;
+    border: 1.5px solid $color-secondary-Pale-Blue;
+    border-radius: 2em;
+    padding: 0.7em 2em;
+    outline: none;
+}
+
+#email:placeholder-shown {
+    color: $color-secondary-Pale-Blue;
+}
+
+.submit {
+    font-size: 0.8em;
+    font-weight: 600;
+    background: $color-Primary-Blue;
+    color: #fff;
+    border: none;
+    border-radius: 2em;
+    padding: 0.7em 0;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 2px 5px #ccc;
+}
+
+.submit:hover, .submit:focus {
+    cursor: pointer;
+    background: hsla(223, 87%, 63%, 0.753);
+}
 
 /* Footer */
 .attribution {
