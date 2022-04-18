@@ -19,7 +19,8 @@
         "../scss/_icons.scss",
         "../scss/_screen-reader.scss",
         "../scss/brands.scss",
-        "../scss/_variables-fa.scss"
+        "../scss/_variables-fa.scss",
+        "../scss/_mediaQueries.scss"
     ],
     "names": [],
     "file": "main.min.css"
