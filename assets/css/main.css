@@ -18,6 +18,7 @@ html {
 }
 
 body {
+  height: 100vh;
   background: #f7f7f7;
   color: #151f29;
   text-align: center;
@@ -6221,6 +6222,31 @@ form {
 }
 
 /* Footer */
+footer {
+  margin-top: 5em;
+}
+
+.socials a:nth-child(2) {
+  margin: 0 0.5em;
+}
+
+.socials a {
+  text-decoration: none;
+}
+
+.fab {
+  width: 42px;
+  height: auto;
+  color: #4f7df3;
+  border-radius: 50%;
+  border: 1px solid #c2d3ff;
+  padding: 0.35em;
+}
+
+.copy {
+  margin: 2em 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
