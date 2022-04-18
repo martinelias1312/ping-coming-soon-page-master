@@ -18,8 +18,8 @@ html {
 }
 
 body {
-  background: #c2d3ff;
-  height: 100vh;
+  background: #f7f7f7;
+  color: #151f29;
   font-size: 1.25em;
   font-family: "Libre Franklin", sans-serif;
 }
@@ -45,4 +45,13 @@ img {
 /*
  *	CONTENT
  ------------------------------------------------------ */
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
 /*# sourceMappingURL=main.css.map */
