@@ -6234,6 +6234,11 @@ footer {
   text-decoration: none;
 }
 
+.fab:hover, .fab:focus {
+  background: #4f7df3;
+  color: #fff;
+}
+
 .fab {
   width: 42px;
   height: auto;
@@ -6241,6 +6246,8 @@ footer {
   border-radius: 50%;
   border: 1px solid #c2d3ff;
   padding: 0.35em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .copy {

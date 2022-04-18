@@ -82,6 +82,11 @@ footer {
     text-decoration: none;
 }
 
+.fab:hover, .fab:focus {
+    background: $color-Primary-Blue;
+    color: #fff;
+}
+
 .fab {
     width: 42px;
     height: auto;
@@ -89,6 +94,7 @@ footer {
     border-radius: 50%;
     border: 1px solid $color-secondary-Pale-Blue;
     padding: 0.35em;
+    transition: all 0.3s ease-in-out;
 }
 
 .copy {
