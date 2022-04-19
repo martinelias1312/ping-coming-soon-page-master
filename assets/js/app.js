@@ -9,17 +9,21 @@ function handleSubmit() {
 
     let regex = /^([a-z0-9]+(?:[._-][a-z0-9]+)*)@([a-z0-9]+(?:[.-][a-z0-9]+)*\.[a-z]{2,})$/i;
 
-    if(regex.test(email.value)) {
-
-        error.classList.add('hidden');
-        email.style.borderColor = '';
-        alert('Your email was sent succesfully!');
-
-    } else {
-
+    if(email.value === "") {
+        error.innerHTML = "Whoops! It looks like you forgot to add your email";
         error.classList.remove('hidden');
         email.style.borderColor = 'red';
+        
 
+    } else if(email.value !== "" && !regex.test(email.value)) {
+
+        error.innerHTML = "Please provide a valid email adress";  
+        
+    } else {
+        error.classList.add('hidden');
+        email.style.borderColor = '';
+        email.value = "";
+        alert('Your email was sent succesfully!');
     }
 }
 
