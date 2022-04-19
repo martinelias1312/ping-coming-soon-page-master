@@ -22,8 +22,8 @@ function handleSubmit() {
     } else {
         error.classList.add('hidden');
         email.style.borderColor = '';
+        alert(`Your email ${email.value} was sent succesfully!`);
         email.value = "";
-        alert('Your email was sent succesfully!');
     }
 }
 
