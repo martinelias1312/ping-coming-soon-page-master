@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/ping-responsive-page-with-email-check-S1Pqhx2E9](https://www.frontendmentor.io/solutions/ping-responsive-page-with-email-check-S1Pqhx2E9)
 - Live Site URL: [https://ping-coming-soon-page-master-sage-nu.vercel.app/](https://ping-coming-soon-page-master-sage-nu.vercel.app/)
 
 ## My process
